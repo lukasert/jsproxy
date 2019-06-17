@@ -29,7 +29,7 @@ jsproxy_config({
       lines: [
         // 实验中...
         // 参考 https://github.com/EtherDream/jsproxy/tree/master/cf-worker
-        'black-glitter-6b7e.wifitry.workers.dev:8443'
+        'dawn-union-6b7e.wifitry.workers.dev:8443'
       ]
     }
   },
