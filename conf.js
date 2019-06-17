@@ -4,16 +4,6 @@ jsproxy_config({
 
   // 节点配置
   node_map: {
-    'cfworker': {
-      label: 'Cloudflare Worker',
-      hidden: true,
-      lines: [
-        // 实验中...
-        // 参考 https://github.com/EtherDream/jsproxy/tree/master/cf-worker
-        'black-glitter-d3b9.veip.workers.dev:8443'
-      ]
-    }
-  },
     'aliyun-hk': {
       label: '轻量云-香港',
       lines: [
@@ -34,6 +24,16 @@ jsproxy_config({
         'node-bwh-la.etherdream.com:8443'
       ]
     },
+    'cfworker': {
+      label: 'Cloudflare Worker',
+      lines: [
+        // 实验中...
+        // 参考 https://github.com/EtherDream/jsproxy/tree/master/cf-worker
+        'black-glitter-d3b9.veip.workers.dev:8443'
+      ]
+    }
+  },
+
   /**
    * 默认节点  
    */
